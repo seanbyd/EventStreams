@@ -92,5 +92,5 @@ spec:
     volumes:
       - name: mq-client-keystore
     secret:
-      secretName: mq-client-keystore-yymmdd
+      secretName: mq-client-keystore-yyyymmdd
   # MQ JKS file
