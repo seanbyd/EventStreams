@@ -72,6 +72,7 @@ spec:
         productCloudpakRatio: "2:1"
         productID: 2a79e49111f44ec3acd89608e56138f5
         productMetric: VIRTUAL_PROCESSOR_CORE
+        # Change the license as required
         productName: IBM Event Streams for Non Production
         productVersion: 11.3.1
   tls:
