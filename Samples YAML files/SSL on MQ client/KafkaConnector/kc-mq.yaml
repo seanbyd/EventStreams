@@ -16,9 +16,10 @@ spec:
   #  enabled: true
   #  maxRestarts: 10
   config:
-    # For exactly-once messaging, set the state queue name.
+    # For exactly-once messaging, set the state queue name, plus the reconnect option.
     # Define this queue as PERSISTENT with DEFSOPT(EXCL).
     # mq.exactly.once.state.queue: MY_STATE_QUEUE_NAME
+    # mq.client.reconnect.options: QMGR
     mq.queue.manager: MY_QMGR
     mq.connection.name.list: 10.1.1.1(1414)
     # For exactly-once messaging, set the HBINT(30) on the MQ channel name.
